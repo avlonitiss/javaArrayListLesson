@@ -27,16 +27,16 @@ public class ArrayListLesson {
             //εδώ προστέθηκε μια εγγραφή με τρία διαφορετικά data types σε μία εγγραφή
             //(String, int, double)
             
-            complexArray.add(Arrays.asList("Giannis",850.32,14));
+            complexArray.add(Arrays.asList("Giannis",14,30.35));
               //εδώ προστέθηκε μια εγγγραφή με τρία διαφορετικά data types σε μία εγγραφή
             //(String, double, int) διαφιρετικά από την προηγούμενη εγγραφή
             
-            complexArray.add(Arrays.asList(420));
+            complexArray.add(Arrays.asList("Elenh",15,32.20));
             //εδώ προστέθηκαν μία εγγραφή με ένα data type σε μία εγγραφή
             
             for (List myRecords : complexArray) {
                 System.out.println(
-                    myRecords.get(0));
+                    myRecords.get(0)+" "+myRecords.get(1)+" "+myRecords.get(2));
             }
             
             
