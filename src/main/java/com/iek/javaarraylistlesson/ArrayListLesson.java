@@ -4,6 +4,9 @@
  */
 package com.iek.javaarraylistlesson;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Spyros
@@ -15,7 +18,7 @@ public class ArrayListLesson {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-            ArrayList<List> complexArray = new ArrayList<>;
+            ArrayList<List> complexArray = new ArrayList<>();
   
     }
     
